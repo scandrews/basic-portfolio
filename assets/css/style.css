@@ -1,0 +1,83 @@
+/** This is the style sheet for my bio site **/
+
+body{
+	width: 960px;
+
+
+}
+
+header-name{
+	float: left;
+	font-size: 30px;
+	font-family: Times;
+	color: white;
+	background-color: #4aaaa5;
+	padding:20px;
+	margin-left: 80px;
+}
+
+header-links{
+	float: right;
+	font-size: 15px;
+	font-family: Helvetica;
+	color: green;
+	padding: 20px;
+}
+
+#main-box{
+	border: 2px solid blue;
+	margin: 10px;
+	clear: both;
+	overflow: auto;
+	background-color: #d9dddd;
+	height: 500PX;
+
+}
+
+info-box{
+	border: 2px solid blue;
+	float: left;
+	margin: 30px 15px 30px 50px;
+ 	margin-left: 50px;
+	padding: 10px;
+	width:  550px;
+	background-color: white;
+}
+
+link-box{
+	border: 2px solid blue;
+	float: left;
+	margin: 30px 30px 30px 15px;
+	padding: 20px;
+	height: 100px;
+	width:  170px;	
+	background-color: white;
+}
+
+h2{
+	height: 40px;
+	font-family: Times;
+}
+
+content-box{
+	float: left;
+	border: 2px solid blue;
+	margin: 10px;
+	padding: 10px;
+	height: 300px;
+
+	font-family: Times;
+}
+
+pix-box{
+	float: left;
+	border: 2px solid blue;
+	height: 100px;
+	width:  65px;
+}
+
+.footer{
+	text-align: center;
+	width:	700;
+	border-top: 2px solid #dfdfdf;
+}
