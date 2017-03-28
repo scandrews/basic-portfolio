@@ -1,6 +1,6 @@
 <!-- Steve Andrews Portfolio Site -->
 <!DOCTYPE html>
-<html lang="em-us">
+<html lang="en-us">
 <HEAD>
 	<title>Steve Andrews Bio</title>
 	<meta charset="UTF-8">
@@ -11,19 +11,13 @@
 <Body>
 	
 	<!-- This section is the header containing my name and links -->
-	<header-name>Steven Andrews</header-name>
-	<header-links>
-		<a href="index.html">About</a>
-	</header-links>
-	<header-links>
-		<a href="portfolio">Portfolio</a>
-	</header-links>
-	<header-links>
-		<a href="resume">Resume</a>
-	</header-links>
-	<header-links>
-		<a href="contact">Contact</a>
-	</header-links>
+	<header>
+		<header-name>Steven Andrews</header-name>
+		<a class="header-links" href="index.html">About</a>
+		<a class="header-links" href="portfolio.html">Portfolio</a>
+		<a class="header-links" href="resume.html">Resume</a>
+		<a class="header-links" href="contact.html">Contact</a>
+	</header>
 
 	<!-- This division draws the main content box -->
 	<section id="main-box">
@@ -33,20 +27,34 @@
 
 			<!-- This is the small heading in the inner box -->
 			<h2>About Me</h2>
+
+			<!-- This is the box containing my picture and text -->
 			<content-box>
 				<pix-box>
-					<img src="assets/pix/MeCropped2.gif" style="height: 100px; width: 65px">
+					<img src="assets/pix/MeCropped2.gif" alt="SCA" style="height: 140px; width: 95px">
 				</pix-box>
-				<p>Hi, I'm Steve Andrews - A product marketing manager and visionary team leader with over 20 years experience, my approach is one of ultimate responsibility for the success of a product instantiated as ownership in the marketplace.  I bring outstanding verbal and written communication skills, strategic and analytical thinking, along with a thorough understanding of the marketplace and company functions.  I take a direct and pragmatic approach to problem solving, providing detailed analysis along with a “figure out what needs to be done, and get it done” attitude.</p>
-				<p>A consummate professional, my objective is to lead a new company or team to market domination by engaging my creative energies and talents in producing a winning strategy and unparalleled execution.</p>
+				<a>Hi, I'm Steve Andrews - A product marketing manager and visionary team leader with over 20 years experience, my approach is one of ultimate responsibility for the success of a product instantiated as ownership in the marketplace.  I bring outstanding verbal and written communication skills, strategic and analytical thinking, along with a thorough understanding of the marketplace and company functions.  I take a direct and pragmatic approach to problem solving, providing detailed analysis along with a “figure out what needs to be done, and get it done” attitude.</a>
+				<p> </p>
+				<a>A consummate professional, my objective is to lead a new company or team to market domination by engaging my creative energies and talents in producing a winning strategy and unparalleled execution.</a>
 			</content-box>
 		</info-box>
 		
-		<link-box>
-			<a>test</a>
-		</link-box>
+		<!-- this is the box on the right containing media links -->
+		<aside>
+			<h3>Connect with Me</h3>
+			<media-box>
+				<a href="https://www.linkedin.com/in/steven-andrews-92a637/">
+					<img src="assets/pix/linkedin_square.png" alt="linkedin" style="height: 82px; width: 82px"></a>
+				<a href="http://www.andrewshomecompany.com">
+					<img src="assets/pix/AHCLogo.jpg" alt="AHC Logo" style="height: 82px; width: 82px"></a>
+				<a href="https://www.facebook.com/steven.andrews.773124">
+					<img src="assets/pix/facebook-icon.png" alt="Facebook Logo" style="height: 82px; width: 82px"></a>
 
-		<br></br>
+			</media-box>
+
+		</aside>
+
+<!--		<p></p>	-->
 	
 	</section>
 
