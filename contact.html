@@ -1,8 +1,10 @@
-<!-- Steve Andrews Portfolio Site -->
+<!-- Steve Andrews Portfolio Site 
+This is the contact page for the portfolio site -->
+
 <!DOCTYPE html>
 <html lang="en-us">
 <HEAD>
-	<title>Steve Andrews Bio</title>
+	<title>Contact Steve Andrews</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </HEAD>
@@ -26,20 +28,24 @@
 		<info-box>
 
 			<!-- This is the small heading in the inner box -->
-			<h2>About Me</h2>
+			<h2>Contact</h2>
 
-			<!-- This is the box containing my picture and text -->
+			<!-- This is the box containing input fields -->
 			<content-box>
-				<pix-box>
-					<img src="assets/pix/MeCropped2.gif" alt="SCA" style="height: 140px; width: 95px">
-				</pix-box>
-				<a>Hi, I'm Steve Andrews - A product marketing manager and visionary team leader with over 20 years experience, my approach is one of ultimate responsibility for the success of a product instantiated as ownership in the marketplace.  I bring outstanding verbal and written communication skills, strategic and analytical thinking, along with a thorough understanding of the marketplace and company functions.  I take a direct and pragmatic approach to problem solving, providing detailed analysis along with a “figure out what needs to be done, and get it done” attitude.</a>
-				<p> </p>
-				<p>A consummate professional, my objective is to lead a new company or team to market domination by engaging my creative energies and talents in producing a winning strategy and unparalleled execution.</p>
-				<p> </p>
-				<a>Some more stuff about me.  Here just to fill out the page.  The box will resize for the content.</a>
-				<p>Let's add some more text to demonstrate how the box height wil resize to accomadate the content. </p>
-
+				
+				<form>
+					Name:<br>
+					<input type="text" name="name"><br>
+					Email<br>
+					<input type="email" name="firstname"><br>
+					Message<br>
+					<textarea type="text" name="message">
+					</textarea>
+					<button type="button" onclick="alert('D')">
+						Submit
+					</button>
+				</form>
+				<br>
 			</content-box>
 		</info-box>
 		
